@@ -1,0 +1,59 @@
+<div class="landing">
+
+	<div class="message">
+		<h1>We help build better companies</h1>
+		<h2>Enter your email to get free candid feedback on your startup idea</h2>
+	</div>
+
+ 	<div class="action">
+ 		<div class="call">
+			<%= form_for @user, {:class => "form-inline"} do |f| %>
+				<div class="form-group">
+					<%= f.label :email %>
+					<%= f.text_field :email %>
+					<%= f.submit "Get Feedback", class: "btn-action" %>
+				</div>
+			<% end %>
+		</div>
+ 	</div>
+
+ 	<div class="substance">
+	 	<div class="row">
+	  		<div class="col-md-4">
+	  			<div class="content">	
+	  				<p><u>Get Real Feedback</u></p>
+	  				<%= image_tag("Response.png") %>
+	  				<ul>
+	  					<li>We'll reach out to learn more about your startup</li>
+	  					<li>You'll get honest, candid feedback on your company</li>
+	  					<li>Free with no strings attached</li>
+	  				</ul>  				
+	  			</div>
+	  		</div>
+	  		<div class="col-md-4">
+	  			<div class="content">	
+	  				<p><u>Build Smarter</u></p>
+	  				<%= image_tag("Help.png") %>
+	  				<ul>
+	  					<li>Stop getting BS opinions from family and friends</li>
+	  					<li>Get actionable feedback from builders and investors</li>
+	  					<li>Come back when you please</li>
+	  				</ul>
+	  				
+	  			</div>
+	  		</div>
+	  		<div class="col-md-4">
+	  			<div class="content">	
+	  				<p><u>Find Investors</u></p>
+	  				<%= image_tag("Top5.png") %>
+	  				<ul>
+	  					<li>We're constantly searching for the next great companies</li>
+	  					<li>We regularly share our favorites with our angel investor clients</li>
+	  					<li>We make raising money easier</li>
+	  				</ul>
+	  			</div>
+	  		</div>
+		</div>
+	</div>
+
+</div>	

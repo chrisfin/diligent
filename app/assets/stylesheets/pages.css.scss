@@ -1,0 +1,144 @@
+	// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+@import 'bootstrap';
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+html {
+    height: 100%;
+}
+
+body{
+	font-family: 'Lato', serif;
+	margin: 0;
+	background-color:#dee0e2;
+	font-weight: 300;
+	-webkit-font-smoothing:subpixel-antialiased;
+}
+
+input    {
+	width:450px;
+	height: 40px;
+}
+
+.navbar-inner {
+  background-color: #303643;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+ }
+
+.brand {
+	font-size: 35px;
+	margin-top: -25px;
+	padding: 30px;
+	color: #f97b5e;
+}
+.brand a {
+  color: white;
+  font-style: strong;
+ }
+.brand a:hover {
+    color: #f97b5e;
+    text-decoration: none;
+    -webkit-transition:all 0.15s ease-out;
+}
+
+.landing {
+	background-color: #303643;
+	color: white;
+	width: 100%;
+}
+
+
+.message{
+	text-align: center;
+	padding-bottom: 30px;
+	margin-top: -21px;
+}
+
+.message h1 {
+	margin: 0px;
+	font-size: 40px;
+	padding-bottom: 5px;	
+}
+
+.message h2 {
+	font-weight:normal;
+	margin: 0px;
+	font-size: 25px;	
+}
+
+.action{
+	font-size: 30px;
+	height: 70px;
+	width: 100%;
+	background-color: #e4e7e9;
+	color:#303643;
+	border-bottom:1px solid rgba(0, 0, 0, 0.05);
+	border-top:1px solid rgba(0, 0, 0, 0.05);
+	padding-top: 15px;
+}
+
+.call {
+	margin-left: auto;
+	margin-right: auto;
+	width: 775px;
+}
+
+/* Button Styles */
+
+.btn-action {
+	height: 40px;
+	background-image:none;
+	border-color:transparent;
+	box-shadow:none;
+	font-size:25px;
+	text-shadow:none;
+	border-radius:0px;
+	-webkit-transition:all 0.15s ease-out;
+	width:220px;
+    background-color:#f97b5e;
+	border-bottom:3px solid #d6674e;
+	color: white;
+	float: right;
+	overflow: hidden;
+}
+
+.btn-action:hover{
+	background-color:#db6c52;
+	-webkit-transition:all 0.15s ease-out;
+}
+
+.substance{
+	padding: 30px;
+	color: #303643;
+	font-size: 25px;
+	text-align: center;
+}
+
+.content{
+	background-color: white;
+	height: 300px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.content p {
+	padding-top: 20px;
+	padding-bottom: 15px;
+	font-size: 25px;
+
+}
+
+.content ul {
+	padding-top: 15px;
+}
+
+.content li {
+	text-align: left;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
