@@ -1,0 +1,57 @@
+<div class="landing">
+
+	<div class="message">
+		<h1>Free up time to make better investments</h1>
+		<h2>Enter your email to learn more about our suite of startup investor services</h2>
+	</div>
+
+ 	<div class="action">
+ 		<div class="call">
+			<%= form_for @user, {:class => "form-inline"} do |f| %>
+				<div class="form-group">
+					<%= f.hidden_field :access_point, :value => "investor" %>
+					<%= f.label :email %>
+					<%= f.text_field :email %>
+					<%= f.submit "Learn More", class: "btn-action" %>
+				</div>
+			<% end %>
+		</div>
+ 	</div>
+
+ 	<div class="substance">
+	 	<div class="row">
+	  		<div class="col-md-4">
+	  			<div class="content">	
+	  				<p>Diligent<font color="#f97b5e">Research</font></p>
+	  				<ul>
+	  					<li>Access our database of startup company research reports</li>
+	  					<li>Our unique reports are objective, brief and prescriptive</li>
+	  					<li>It's like having your own team of research associates</li>
+	  				</ul>  				
+	  			</div>
+	  		</div>
+	  		<div class="col-md-4">
+	  			<div class="content">	
+	  				<p>Diligent<font color="#f97b5e">Inbox</font></p>
+	  				<ul>
+	  					<li>You get too many emails from entrepreneurs</li>
+	  					<li>Forward your extra volume to us, we'll vet the opportunities for you</li>
+	  					<li>Every founder gets a response, you only get back the best ideas</li>
+	  				</ul>
+	  				
+	  			</div>
+	  		</div>
+	  		<div class="col-md-4">
+	  			<div class="content">	
+	  				<p>Diligent<font color="#f97b5e">Deals</font></p>
+	  				<ul>
+	  					<li>We make it our business to find and work with the best founders</li>
+	  					<li>When we find a deal we know you'll like, we'll share it with you</li>
+	  					<li>We only bring you deals tailored to your investment style</li>
+	  				</ul>
+	  			</div>
+	  		</div>
+		</div>
+	</div>
+
+</div>	

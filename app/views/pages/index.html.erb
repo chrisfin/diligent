@@ -9,6 +9,7 @@
  		<div class="call">
 			<%= form_for @user, {:class => "form-inline"} do |f| %>
 				<div class="form-group">
+					<%= f.hidden_field :access_point, :value => "founder" %>
 					<%= f.label :email %>
 					<%= f.text_field :email %>
 					<%= f.submit "Get Feedback", class: "btn-action" %>
