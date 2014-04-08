@@ -1,27 +1,12 @@
-<div class="navbar navbar-static-top">
+<header class="navbar navbar-fixed-top">
   <div class="navbar-inner">
-    
-      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
- 
-      <!-- Be sure to leave the brand out there if you want it shown -->
-        <div class="brand">
-          <%= link_to "Diligent", root_path %>Lab
-        </div>
-
-      <!-- Everything you want hidden at 940px or less, place within here -->
-      <div class="nav-collapse collapse">
-      
-
-    		<ul class="nav pull-right">
-                    <li><%= link_to "Add Item", "#" %></li>
-                    <li><%= link_to "Control", "#" %></li> 
-    		</ul>
-      </div>
- 
+    <div class="container">
+      <div class="brand"><%= link_to "Diligent", root_path %>Lab </div>
+        <ul class="nav navbar-nav navbar-right"> 
+          <li><%= link_to "About Us", "#" %></li>
+          <li><%= link_to "Blog", "#" %></li>
+          <li><%= link_to "Investors", "#" %></li> 
+        </ul>
+    </div>
   </div>
-</div>	
+</header>

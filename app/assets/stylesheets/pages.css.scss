@@ -16,6 +16,7 @@ body{
 	background-color:#dee0e2;
 	font-weight: 300;
 	-webkit-font-smoothing:subpixel-antialiased;
+	padding-top: 50px;
 }
 
 input    {
@@ -28,12 +29,15 @@ input    {
   background-image: none;
   background-repeat: no-repeat;
   filter: none;
+  padding-top: 15px;
+ }
+ .navbar-inner a {
+  color: white;
  }
 
 .brand {
+	float: left;
 	font-size: 35px;
-	margin-top: -25px;
-	padding: 30px;
 	color: #f97b5e;
 }
 .brand a {
@@ -52,15 +56,14 @@ input    {
 	width: 100%;
 }
 
-
 .message{
 	text-align: center;
 	padding-bottom: 30px;
-	margin-top: -21px;
 }
 
 .message h1 {
 	margin: 0px;
+	padding-top: 55px;
 	font-size: 40px;
 	padding-bottom: 5px;	
 }
@@ -68,18 +71,19 @@ input    {
 .message h2 {
 	font-weight:normal;
 	margin: 0px;
-	font-size: 25px;	
+	font-size: 25px;
+	padding-bottom: 5px;
 }
 
 .action{
 	font-size: 30px;
-	height: 70px;
+	height: 90px;
 	width: 100%;
 	background-color: #e4e7e9;
 	color:#303643;
 	border-bottom:1px solid rgba(0, 0, 0, 0.05);
 	border-top:1px solid rgba(0, 0, 0, 0.05);
-	padding-top: 15px;
+	padding-top: 25px;
 }
 
 .call {
@@ -114,6 +118,7 @@ input    {
 
 .substance{
 	padding: 30px;
+	margin-top: 15px;
 	color: #303643;
 	font-size: 25px;
 	text-align: center;
@@ -142,3 +147,43 @@ input    {
 	font-size: 16px;
 	margin-bottom: 15px;
 }
+
+/* footer */
+
+footer {
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777777;
+  padding-left: 0px;
+  font-size: 14px;
+  width: 100%;
+  clear: both;
+  padding-bottom: 30px;
+  text-align:center;
+  padding-top:30px;
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+footer a {
+&:hover {
+  color: black;
+  text-decoration: none;
+}
+}
+
+
+.footer_right{
+  display:block;
+  text-align:center;
+  margin-top:20px;
+}
+
+.footer_right a img{
+	opacity:0.2;
+	-webkit-transition:all 0.15s ease-out;
+}
+
+.footer_right a:hover img{
+	opacity:0.6;
+}
+
